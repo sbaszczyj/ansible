@@ -9,6 +9,10 @@
         - epel-release
         - python3-devel
         - gcc
+      state: latest
+  - name: Install stuff
+    dnf:
+      name: 
         - ansible
       state: latest
   - name: Install pip dependencies
